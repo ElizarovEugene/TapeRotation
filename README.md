@@ -235,10 +235,7 @@ The database path is resolved automatically relative to the project directory (`
 ### 4. Backend dependencies
 
 ```bash
-pip3 install --break-system-packages \
-  fastapi uvicorn[standard] sqlalchemy pydantic pydantic-settings \
-  apscheduler python-dotenv python-multipart openpyxl \
-  "python-jose[cryptography]"
+pip3 install --break-system-packages -r backend/requirements.txt
 ```
 
 ### 5. Frontend dependencies
