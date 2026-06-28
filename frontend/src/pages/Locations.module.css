@@ -1,0 +1,74 @@
+/* Locations page */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.tableHead {
+  background: #f1f5f9;
+  text-align: left;
+}
+
+.tableRow {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.noData {
+  padding: 24px;
+  text-align: center;
+  color: #888;
+}
+
+/* Spread: btnSm + marginLeft + color override */
+.btnSmDelete {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 4px;
+  color: #b91c1c;
+}
+
+.formSection {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.formSectionTitle {
+  margin-bottom: 16px;
+}
+
+/* textarea = input + height */
+.textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 14px;
+  height: 50px;
+}
+
+.formActions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.fieldWrapper {
+  margin-bottom: 10px;
+}
+
+.fieldLabel {
+  display: block;
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 4px;
+}

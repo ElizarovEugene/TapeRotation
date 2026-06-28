@@ -1,0 +1,90 @@
+/* App layout */
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  background: #1e3a5f;
+  padding: 28px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sidebarLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.sidebarLogoImg {
+  width: 72px;
+  height: 72px;
+}
+
+.sidebarTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 8px;
+  letter-spacing: 0.02em;
+}
+
+.navLink {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #93c5fd;
+  background: transparent;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navLinkActive {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  font-weight: 600;
+}
+
+.sidebarFooter {
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: 16px;
+}
+
+.sidebarUser {
+  font-size: 12px;
+  color: #93c5fd;
+  margin-bottom: 6px;
+  padding: 0 4px;
+}
+
+.sidebarUserAdmin {
+  margin-left: 6px;
+  opacity: 0.7;
+}
+
+.logoutBtn {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  color: #93c5fd;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  text-align: left;
+}
+
+.main {
+  flex: 1;
+  padding: 32px;
+  background: #f8fafc;
+  min-height: 100vh;
+}

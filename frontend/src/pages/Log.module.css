@@ -1,0 +1,39 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.tableHead {
+  background: #f1f5f9;
+  text-align: left;
+}
+
+.tableRow {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.tdNoWrap {
+  padding: 8px 12px;
+  white-space: nowrap;
+  color: #555;
+}
+
+.tdMuted {
+  padding: 8px 12px;
+  color: #666;
+}
+
+.setLink {
+  color: #1a5fa8;
+  text-decoration: none;
+}
+
+.setLink:hover {
+  text-decoration: underline;
+}
+
+.noData {
+  color: #888;
+  font-size: 14px;
+}

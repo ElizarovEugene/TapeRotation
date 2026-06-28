@@ -1,0 +1,78 @@
+/* Login page */
+
+.bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f5f9;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 36px 40px;
+  width: 340px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+}
+
+.logoRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.logoImg {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 12px;
+}
+
+.logoTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e3a5f;
+}
+
+.fieldWrapper {
+  margin-bottom: 14px;
+}
+
+.fieldWrapperLast {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 15px;
+}
+
+.error {
+  color: #b91c1c;
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+
+.btn {
+  width: 100%;
+  background: #1e3a5f;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}

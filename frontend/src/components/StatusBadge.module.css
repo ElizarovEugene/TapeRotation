@@ -1,0 +1,23 @@
+/* StatusBadge */
+
+.badge {
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.in_storage {
+  background: #e0f0ff;
+  color: #1a5fa8;
+}
+
+.expired {
+  background: #fde8e8;
+  color: #b91c1c;
+}
+
+.returned {
+  background: #e6f4ea;
+  color: #166534;
+}

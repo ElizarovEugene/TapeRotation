@@ -1,0 +1,140 @@
+/* Sets page */
+
+.headerActions {
+  display: flex;
+  gap: 8px;
+}
+
+.searchRow {
+  margin-bottom: 12px;
+}
+
+.searchInput {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 7px 12px;
+  font-size: 14px;
+}
+
+.filterRow {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filterBtnGroup {
+  display: flex;
+  gap: 6px;
+}
+
+.btnFilter {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btnFilterActive {
+  background: #1a5fa8;
+  color: #fff;
+  border: 1px solid #1a5fa8;
+  border-radius: 4px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btnFilterClear {
+  background: #f1f5f9;
+  border: 1px solid #fca5a5;
+  border-radius: 4px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #b91c1c;
+}
+
+.selectFilter {
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 13px;
+  background: #f1f5f9;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.tableHead {
+  background: #f1f5f9;
+  text-align: left;
+}
+
+/* th + cursor + userSelect — for sortable columns */
+.thSortable {
+  padding: 8px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.tableRow {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.noData {
+  padding: 24px;
+  text-align: center;
+  color: #888;
+}
+
+.link {
+  color: #1a5fa8;
+}
+
+.foreverIcon {
+  color: #0369a1;
+  font-weight: 600;
+}
+
+.sortIconInactive {
+  color: #ccc;
+  margin-left: 4px;
+}
+
+.sortIconActive {
+  margin-left: 4px;
+}
+
+/* btnSm action variants */
+.btnSmReturn {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 4px;
+  color: #166534;
+}
+
+.btnSmDelete {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 4px;
+  color: #b91c1c;
+}

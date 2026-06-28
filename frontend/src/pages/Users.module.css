@@ -1,0 +1,180 @@
+/* Users page */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.tableHead {
+  background: #f1f5f9;
+  text-align: left;
+}
+
+/* table row — no bottom border when edit row follows */
+.tableRowEditing {
+  border-bottom: none;
+}
+
+.tableRow {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* edit inline row */
+.editRow {
+  border-bottom: 1px solid #e2e8f0;
+  background: #f8fafc;
+}
+
+.editCell {
+  padding: 12px 12px;
+}
+
+.editRowInner {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+/* input + width:220 */
+.inputPassword {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 14px;
+  width: 220px;
+}
+
+/* input + width:160 */
+.inputRole {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 14px;
+  width: 160px;
+}
+
+/* input + width:130 */
+.inputLang {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 14px;
+  width: 130px;
+}
+
+/* btnPrimary + marginBottom:1 */
+.btnSaveInline {
+  background: #1a5fa8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+
+.noData {
+  padding: 24px;
+  text-align: center;
+  color: #888;
+}
+
+/* "me" label */
+.meLabel {
+  font-size: 11px;
+  color: #888;
+  margin-left: 6px;
+}
+
+/* Status text */
+.statusActive {
+  color: #166534;
+  font-size: 13px;
+}
+
+.statusInactive {
+  color: #b91c1c;
+  font-size: 13px;
+}
+
+/* Language label */
+.langLabel {
+  font-size: 12px;
+  color: #555;
+}
+
+/* Role badges */
+.roleBadgeAdmin {
+  background: #fef3c7;
+  color: #92400e;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.roleBadgeUser {
+  background: #f1f5f9;
+  color: #475569;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.roleBadgeReadonly {
+  background: #f0fdf4;
+  color: #166534;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* btnSm + marginLeft + delete */
+.btnSmDelete {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 4px;
+  color: #b91c1c;
+}
+
+.fieldWrapper {
+  /* container for Field component */
+}
+
+.formCardTitle {
+  margin-bottom: 16px;
+}
+
+.formCardError {
+  color: #b91c1c;
+  margin: 8px 0;
+  font-size: 13px;
+}
+
+.formCardActions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.fieldLabel {
+  display: block;
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 4px;
+}

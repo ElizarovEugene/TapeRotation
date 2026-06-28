@@ -1,0 +1,253 @@
+/* SetDetail page */
+
+.backLink {
+  color: #1a5fa8;
+  font-size: 13px;
+}
+
+.backRow {
+  margin-bottom: 8px;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.headerLeft {
+}
+
+.titleRow {
+  margin-bottom: 6px;
+}
+
+.description {
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.headerRight {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.infoCard {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+
+.infoRow {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.infoLabel {
+  color: #888;
+  min-width: 130px;
+}
+
+.infoValueHighlight {
+  font-weight: 600;
+  color: #1a5fa8;
+}
+
+.notes {
+  margin-bottom: 24px;
+  color: #555;
+}
+
+.notesPre {
+  white-space: pre-wrap;
+  margin-top: 4px;
+}
+
+.tapesHeading {
+  margin-bottom: 12px;
+}
+
+.addTapeRow {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+/* inputSm + width:100% */
+.inputSmFull {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 13px;
+  background: #fff;
+  width: 100%;
+}
+
+.inputSm {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 13px;
+  background: #fff;
+}
+
+/* inputSm + width:110px */
+.inputSmLto {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 13px;
+  background: #fff;
+  width: 110px;
+}
+
+/* inputSm + width:120px */
+.inputSmStatus {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 13px;
+  background: #fff;
+  width: 120px;
+}
+
+.noTapes {
+  color: #888;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.tableHead {
+  background: #f1f5f9;
+  text-align: left;
+}
+
+.thActions {
+  padding: 8px 12px;
+  font-weight: 600;
+  width: 140px;
+}
+
+.tableRow {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* history row highlight */
+.tableRowKey {
+  border-bottom: 1px solid #e2e8f0;
+  background: #f0f7ff;
+}
+
+/* td variants */
+.tdNoWrap {
+  padding: 8px 12px;
+  white-space: nowrap;
+  color: #555;
+}
+
+.tdKeyAction {
+  padding: 8px 12px;
+  font-weight: 600;
+  color: #1a5fa8;
+}
+
+.tdMuted {
+  padding: 8px 12px;
+  color: #666;
+}
+
+/* td + color lto */
+.tdLtoBlue {
+  padding: 8px 12px;
+  color: #1a5fa8;
+}
+
+.tdLtoMuted {
+  padding: 8px 12px;
+  color: #bbb;
+}
+
+.returnSection {
+  margin-top: 32px;
+}
+
+/* btnPrimary + background:#166534 */
+.btnReturn {
+  background: #166534;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.historySection {
+  margin-top: 40px;
+}
+
+.historyContent {
+  margin-top: 12px;
+}
+
+.noHistory {
+  color: #888;
+  font-size: 14px;
+}
+
+.historyTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+/* btnSm + color save */
+.btnSmSave {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #166534;
+}
+
+/* btnSm + marginLeft */
+.btnSmCancel {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+/* btnSm + marginLeft + delete */
+.btnSmDelete {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 4px;
+  color: #b91c1c;
+}
