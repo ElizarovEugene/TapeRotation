@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 Veritas NetBackup — экспорт списка носителей.
 
